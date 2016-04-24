@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/chenyang/projects/Triconnected Component/Tools.h
+iostream
+-
+
+/home/chenyang/projects/Triconnected Component/Tricomp.cpp
+Tricomp.h
+/home/chenyang/projects/Triconnected Component/Tricomp.h
+iostream
+-
+fstream
+-
+
+/home/chenyang/projects/Triconnected Component/Tricomp.h
+Tools.h
+/home/chenyang/projects/Triconnected Component/Tools.h
+
+/home/chenyang/projects/Triconnected Component/main.cpp
+iostream
+-
+Tricomp.h
+/home/chenyang/projects/Triconnected Component/Tricomp.h
+

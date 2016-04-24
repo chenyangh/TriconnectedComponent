@@ -1,0 +1,1 @@
+/usr/bin/c++    -std=c++11 -g    CMakeFiles/triconnected_component.dir/Tricomp.cpp.o CMakeFiles/triconnected_component.dir/main.cpp.o  -o triconnected_component 

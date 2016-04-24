@@ -1,0 +1,8 @@
+/home/chenyang/projects/Triconnected Component/build/CMakeFiles/list_install_components.dir
+/home/chenyang/projects/Triconnected Component/build/CMakeFiles/install.dir
+/home/chenyang/projects/Triconnected Component/build/CMakeFiles/install/local.dir
+/home/chenyang/projects/Triconnected Component/build/CMakeFiles/install/strip.dir
+/home/chenyang/projects/Triconnected Component/build/CMakeFiles/edit_cache.dir
+/home/chenyang/projects/Triconnected Component/build/CMakeFiles/Tricomp.dir
+/home/chenyang/projects/Triconnected Component/build/CMakeFiles/rebuild_cache.dir
+/home/chenyang/projects/Triconnected Component/build/CMakeFiles/triconnected_component.dir
