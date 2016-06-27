@@ -9,12 +9,13 @@
 #include <iostream>
 #include "Tricomp.h"
 int main(int argc, const char * argv[]) {
-    
+
+    std::cout << argv[0];
     graph * graph_instance = new graph(13);
-    graph_instance->read_edges_from_file("/Users/chenyanghuang/Desktop/499/compare/test.txt");
+    graph_instance->read_edges_from_file("/home/chenyang/ClionProjects/"
+                                                 "TriconnectedComponent/build/test.txt");
     // FIRST STEP, CHECK IF THE GRAPH IS SIMPLE GRAPH
-   
-    
+
     // SECOND STEP, PERFORM THE FIRST DFS,,, ? NOT IMPLEMENTED
     graph_instance->dfs_1();
     
@@ -25,8 +26,9 @@ int main(int argc, const char * argv[]) {
     
     
     // THIRD STEP,
-    graph_instance->print_adjacency_list();
-    
+    graph_instance->dfs_2();
+
+
     
     return 0;
 }

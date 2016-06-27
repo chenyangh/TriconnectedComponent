@@ -9,8 +9,8 @@
 #include <iostream>
 using namespace std;
 
-#ifndef _99_brand_new_Tools_h
-#define _99_brand_new_Tools_h
+#ifndef _new_Tools_h
+#define _new_Tools_h
 
 
 // ============================================================

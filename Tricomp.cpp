@@ -250,7 +250,7 @@ void graph::dfs_2()
         vertex_info[i].is_visited = false;
     dfs_2_recur(1, 0);
     
-    out_frond_list = (vertex **) malloc( ( current_vertices_size + 1) * sizeof(vertex*));
+    out_list = (vertex **) malloc( ( current_vertices_size + 1) * sizeof(vertex*));
     in_frond_list = (vertex **) malloc( ( current_vertices_size + 1) * sizeof(vertex*));
     
 }
@@ -267,7 +267,7 @@ void graph::dfs_2_recur(int w, int v)
     // Pw = w; // NOT DONE // conserdering design of data structure
     
     in_frond_list[w] = new vertex;
-    out_frond_list[w] = new vertex;
+    out_list[w] = new vertex;
     
     vertex* cur_ver = adjacency_list[w]->next;
     

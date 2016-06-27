@@ -1,13 +1,12 @@
 //
 //  Tricomp.h
-//  499_brand_new
 //
 //  Created by Chenyang Huang on 2015-08-26.
 //  Copyright (c) 2015 Chenyang Huang. All rights reserved.
 //
 
-#ifndef _99_brand_new_Tricomp_h
-#define _99_brand_new_Tricomp_h
+#ifndef _Tricomp_h
+#define _Tricomp_h
 
 
 #include "Tools.h"
@@ -73,11 +72,9 @@ private:
     //int current_edges_size = 0; //
     int current_vertices_size = 0;
     int time; // used by DFS1
-    
-    
-    
+
     int count; // used by DFS2
-    vertex** out_frond_list;
+    vertex** out_list;
     vertex** in_frond_list;
 };
 
