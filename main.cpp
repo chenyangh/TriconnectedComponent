@@ -13,7 +13,7 @@ int main(int argc, const char * argv[]) {
     std::cout << argv[0];
     graph * graph_instance = new graph(13);
     graph_instance->read_edges_from_file("/home/chenyang/ClionProjects/"
-                                                 "TriconnectedComponent/build/test.txt");
+                                                 "TriconnectedComponent/test.txt");
     // FIRST STEP, CHECK IF THE GRAPH IS SIMPLE GRAPH
 
     // SECOND STEP, PERFORM THE FIRST DFS,,, ? NOT IMPLEMENTED
